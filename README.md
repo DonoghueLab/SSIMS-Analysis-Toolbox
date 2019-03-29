@@ -20,7 +20,9 @@ To get started:
 
 4. Open **SSIMS_democenter_out.m** in Matlab: for guidance on using SSIMS (dim-reduced Ensemble Activity Spiketrain Simliarty Maps) with a single demo dataset (discrete data).  
 
-5. For more details on both methods, publication [1], or our webpage: [Donoghue Lab - Github Page - Analysis Toolbox](https://donoghuelab.github.io/SSIMS-Analysis-Toolbox/) 
+5. For more details on both methods see publication [1] or our webpage: [Donoghue Lab - Github Page - Analysis Toolbox](https://donoghuelab.github.io/SSIMS-Analysis-Toolbox/). 
+
+Any questions should be directed to <carlos_vargas-irwin@brown.edu>
 
 
 Version history

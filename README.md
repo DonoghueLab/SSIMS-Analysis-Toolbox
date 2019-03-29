@@ -8,6 +8,8 @@ Jacqueline Hynes
 
 Donoghue Lab, Brown University, 2012-2019.
 
+https://github.com/DonoghueLab/SSIMS-Analysis-Toolbox
+
 ### Quick-Guide ####
 The purpose of this toolbox is to generate dimensionality-reduced **S**pike train **Sim**ilarity (SSIM) Maps from discrete or continuous neural data, facilitating visualization and further analysis. 
 

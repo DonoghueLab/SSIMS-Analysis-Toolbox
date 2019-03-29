@@ -6,7 +6,7 @@ Carlos Vargas-Irwin
 Jonas B. Zimmermann
 Jacqueline Hynes
 
-Donoghue Lab, Brown University, 2012-2017.
+Donoghue Lab, Brown University, 2012-2019.
 
 The purpose of this toolbox is to generate dimensionality-reduced data from spike trains, facilitating visualization and further analysis. The toolbox integrates two algorithms to achieve this:
 * spike train distance metric described by Victor and Purpura (1996)

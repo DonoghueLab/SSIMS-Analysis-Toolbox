@@ -4,6 +4,7 @@ SSIMS Toolbox v3.0
 
 Carlos Vargas-Irwin
 Jonas B. Zimmermann
+Jacqueline Hynes
 
 Donoghue Lab, Brown University, 2012-2017.
 
@@ -19,6 +20,8 @@ In addition, the C++ code implementing tSNE and useful spike train manipulation 
 
 Version history
 ---------------
+ *  4.0.0: March 2019
+    Added SSIMS toolbox to Github; updated install instructions
 *   3.0.11: 24 May 2017
     Added `getCSIMS` function for continuous data
 *   3.0.10: 3 November 2016

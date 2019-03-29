@@ -1,4 +1,4 @@
-SSIMS Toolbox v3.0
+SSIMS Toolbox v4.0
 ==================
 
 
@@ -8,20 +8,25 @@ Jacqueline Hynes
 
 Donoghue Lab, Brown University, 2012-2019.
 
-The purpose of this toolbox is to generate dimensionality-reduced data from spike trains, facilitating visualization and further analysis. The toolbox integrates two algorithms to achieve this:
-* spike train distance metric described by Victor and Purpura (1996)
-* t-Distributed Stochastic Neighbor Embedding (tSNE) (Van der Maaten and Hinton 2008).
-The whole approach has been published in Vargas-Irwin et al. 2015.
+### Quick-Guide ####
+The purpose of this toolbox is to generate dimensionality-reduced **S**pike train **Sim**ilarity (SSIM) Maps from discrete or continuous neural data, facilitating visualization and further analysis. 
 
-For installation instructions, see `doc/INSTALL.md`. Specific files for macOS X installations are contained in `doc/install_mac`.
-For an example, open & run `SSIMS_demo_center_out.m` in MATLAB.
-In addition, the C++ code implementing tSNE and useful spike train manipulation functions have some example code in src/test. `SSIMS_test.cpp` is essentially a port of `SSIMS_demo_center_out.m`, without plotting. On Mac/Linux, run with `make test`.
+To get started: 
+1. Download the tool box from Github: [Toolbox Repository](https://github.com/DonoghueLab/SSIMS-Analysis-Toolbox) 
+
+2. Add toolbox to your MATLAB path.
+
+3. **Optional, but recommended** Installation of complied Matlab code for significantly(!) increased performance see 'install.md'. 
+
+4. Open **SSIMS_democenter_out.m** in Matlab: for guidance on using SSIMS (dim-reduced Ensemble Activity Spiketrain Simliarty Maps) with a single demo dataset.  
+
+5. For more details on both methods, publication [1], or our webpage: [Donoghue Lab - Github Page - Analysis Toolbox](https://donoghuelab.github.io/SSIMS-Analysis-Toolbox/) 
 
 
 Version history
 ---------------
  *  4.0.0: March 2019
-    Added SSIMS toolbox to Github; updated install instructions
+    Added Public SSIMS toolbox to Github; updated readME and install instructions; created webpage
 *   3.0.11: 24 May 2017
     Added `getCSIMS` function for continuous data
 *   3.0.10: 3 November 2016
@@ -43,8 +48,8 @@ Version history
 
 References
 ----------
-[Vargas-Irwin CE, Brandman DM, Zimmermann JB, Donoghue JP, Black MJ (Jan. 2015). “Spike Train SIMilarity Space (SSIMS): A Framework for Single Neuron and Ensemble Data Analysis”. In: Neural Computation. 27(1), pp.1–31.](http://www.mitpressjournals.org/doi/abs/10.1162/NECO_a_00684?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed)
+[1] [Vargas-Irwin CE, Brandman DM, Zimmermann JB, Donoghue JP, Black MJ (Jan. 2015). “Spike Train SIMilarity Space (SSIMS): A Framework for Single Neuron and Ensemble Data Analysis”. In: Neural Computation. 27(1), pp.1–31.](http://www.mitpressjournals.org/doi/abs/10.1162/NECO_a_00684?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed)
 
-Van der Maaten, Laurens J P and Geoffrey E Hinton (Nov. 2008). “Visualizing High-Dimensional Data Using t-SNE”. In: Journal of Machine Learning Research 9, pp. 2579–2605.
+[2] Van der Maaten, Laurens J P and Geoffrey E Hinton (Nov. 2008). “Visualizing High-Dimensional Data Using t-SNE”. In: Journal of Machine Learning Research 9, pp. 2579–2605.
 
-Victor, J D and K P Purpura (1996). “Nature and precision of temporal coding in visual cortex: a metric-space analysis”. In: Journal of Neurophysiology 76.2, pp. 1310–26.
+[3] Victor, J D and K P Purpura (1996). “Nature and precision of temporal coding in visual cortex: a metric-space analysis”. In: Journal of Neurophysiology 76.2, pp. 1310–26.
